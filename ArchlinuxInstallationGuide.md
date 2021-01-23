@@ -113,3 +113,11 @@ umount -R /mnt
 reboot
 ```
 
+# 启动后联网
+
+```
+nmcli device wifi list
+nmcli device wifi connect SSID password password
+
+```
+
